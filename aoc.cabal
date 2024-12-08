@@ -73,3 +73,9 @@ executable 4
   main-is:          app/4.hs
   build-depends:    base, containers
   default-language: GHC2021
+
+executable 5
+  main-is:          app/5.hs
+  build-depends:    base, containers,split
+  default-language: GHC2021
+
